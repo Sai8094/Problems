@@ -3,20 +3,19 @@ package com.bridge;
 public class OddDigitReverse {
 
 	public static void main(String[] args) {
-		
+
 		System.out.println(oddNumReverse(123456789));
 	}
 
-	static int oddNumReverse(int n)
-	{
+	static int oddNumReverse(int n) {
 		int rev = 0;
 		do {
-			int d= n%10;
-			if(d%2==1) {
-				rev = rev*10+d;
+			int d = n % 10;
+			if (d % 2 == 1) {
+				rev = rev * 10 + d;
 			}
-			n=n/10;
-		}while(n!=0);
+			n = n / 10;
+		} while (n != 0);
 		return rev;
 	}
 }

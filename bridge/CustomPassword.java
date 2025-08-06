@@ -15,15 +15,15 @@ public class CustomPassword {
 			Character ch = str.charAt(i);
 			if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
 				sb.append('@');
-			}
-			else if (Character.isDigit(ch)) {
+			} else if (Character.isDigit(ch)) {
 				if ((int) ch % 2 == 0) {
 					sb.append('*');
-				}else {
+				} else {
 					sb.append(ch);
 				}
-			}else {
-			sb.append(ch);}
+			} else {
+				sb.append(ch);
+			}
 		}
 		return new String(sb).toUpperCase();
 	}
