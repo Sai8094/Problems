@@ -1,11 +1,10 @@
 package com.parking;
 
-public class Bike extends Vehicle{
+public class Bike extends Vehicle {
 	private String bikeNumber;
 	private int checkInTime;
 	private double charge;
-	
-	
+
 	public Bike(String bikeNumber, int checkInTime) {
 		this.bikeNumber = bikeNumber;
 		this.checkInTime = checkInTime;
@@ -46,14 +45,11 @@ public class Bike extends Vehicle{
 	@Override
 	void displayVehiclesInfo() {
 		System.out.println("Bike Details");
-		System.out.println("Bike number "+getBikeNumber());
-		System.out.println("Bike Check in time "+getCheckInTime());
-		System.out.println("Bike Charge "+getCharge());
+		System.out.println("Bike number " + getBikeNumber());
+		System.out.println("Bike Check in time " + getCheckInTime());
+		System.out.println("Bike Charge " + getCharge());
 		System.out.println();
-		
+
 	}
-	
-	
-	
 
 }

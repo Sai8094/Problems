@@ -2,11 +2,11 @@ package com.oop;
 
 public class PartTime implements Employee {
 	double salary = 10000;
-	
+
 	@Override
 	public double calculateSalary() {
-		
-		return 12*10000;
+
+		return 12 * 10000;
 	}
 
 	@Override

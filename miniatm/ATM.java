@@ -4,7 +4,7 @@ public class ATM {
 
 	public static void main(String[] args) {
 		
-		ATMFunctionalities atmFunctionalities = new ATMFunctionalities();
+		ATMFunctionalitiesImpl atmFunctionalities = new ATMFunctionalitiesImpl();
 		
 		Account account = new Account();
 		account.setName("Ramesh");

@@ -25,6 +25,5 @@ public class Elephant implements Animal {
 	public void setHealthStatus(String healthStatus) {
 		this.healthStatus = healthStatus;
 	}
-	
 
 }

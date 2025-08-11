@@ -4,8 +4,9 @@ public class UserAccount {
 	private String accountholdername;
 	private int pin;
 	private double balance;
-	
-	public UserAccount() {}
+
+	public UserAccount() {
+	}
 
 	public String getAccountholdername() {
 		return accountholdername;
@@ -15,7 +16,7 @@ public class UserAccount {
 		this.accountholdername = accountholdername;
 	}
 
-	public  int getPin() {
+	public int getPin() {
 		return pin;
 	}
 
@@ -30,9 +31,5 @@ public class UserAccount {
 	public void setBalance(double balance) {
 		this.balance = balance;
 	};
-	
-	
-		
-	
 
 }

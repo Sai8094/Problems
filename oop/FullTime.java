@@ -1,12 +1,12 @@
 package com.oop;
 
-public class FullTime implements Employee{
+public class FullTime implements Employee {
 	double salary = 20000;
-	
+
 	@Override
 	public double calculateSalary() {
-		
-		return 12*salary;
+
+		return 12 * salary;
 	}
 
 	@Override

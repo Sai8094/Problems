@@ -1,9 +1,9 @@
 package com.resturant;
 
-public class Burger implements FoodItem{
+public class Burger implements FoodItem {
 	private double price = 200;
 	private String cookingTime = "12 Minutes";
-	
+
 	public double getPrice() {
 		return price;
 	}
@@ -27,7 +27,7 @@ public class Burger implements FoodItem{
 
 	@Override
 	public void itemPrice() {
-		System.out.println("Item Price: "+ this.price);
+		System.out.println("Item Price: " + this.price);
 	}
 
 	@Override

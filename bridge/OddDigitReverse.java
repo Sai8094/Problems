@@ -7,15 +7,15 @@ public class OddDigitReverse {
 		System.out.println(oddNumReverse(123456789));
 	}
 
-	static int oddNumReverse(int n) {
-		int rev = 0;
+	static int oddNumReverse(int number) {
+		int reverse = 0;
 		do {
-			int d = n % 10;
-			if (d % 2 == 1) {
-				rev = rev * 10 + d;
+			int digit = number % 10;
+			if (digit % 2 == 1) {
+				reverse = reverse * 10 + digit;
 			}
-			n = n / 10;
-		} while (n != 0);
-		return rev;
+			number = number / 10;
+		} while (number != 0);
+		return reverse;
 	}
 }

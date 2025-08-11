@@ -18,12 +18,12 @@ public class Car implements Vehicle {
 
 	@Override
 	public void getTollAmount() {
-		System.out.println("Toll Amount: "+ this.tollAmount);
+		System.out.println("Toll Amount: " + this.tollAmount);
 	}
 
 	@Override
 	public void getStayLength() {
-		System.out.println("Stay length: "+ 3.5+" minutes");
+		System.out.println("Stay length: " + 3.5 + " minutes");
 	}
-	
+
 }

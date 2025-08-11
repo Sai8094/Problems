@@ -3,7 +3,7 @@ package com.tollbooth;
 public class Bike implements Vehicle {
 	private String bikeNumber;
 	private double tollAmount;
-	
+
 	public String getBikeNumber() {
 		return bikeNumber;
 	}
@@ -18,12 +18,12 @@ public class Bike implements Vehicle {
 
 	@Override
 	public void getTollAmount() {
-		System.out.println("Toll Amount: "+ this.tollAmount);
+		System.out.println("Toll Amount: " + this.tollAmount);
 	}
 
 	@Override
 	public void getStayLength() {
-		System.out.println("Stay length: "+ 2.5+" minutes");
+		System.out.println("Stay length: " + 2.5 + " minutes");
 	}
 
 }
